@@ -4,18 +4,18 @@ An interactive chatbot web application using Google's **Gemini 2.0 Flash** model
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This chatbot lets users type in messages and get AI-generated responses via Gemini 2.0 Flash. It supports:
 
-* ✅ Real-time chat with Gemini
-* 🔁 Starting a new conversation
-* 🌐 CORS-enabled backend
-* 💡 Simple JS frontend for easy integration
+*  Real-time chat with Gemini
+*  Starting a new conversation
+*  CORS-enabled backend
+*  Simple JS frontend for easy integration
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project-root/
@@ -34,7 +34,7 @@ project-root/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### Backend (FastAPI + Gemini)
 
@@ -64,21 +64,21 @@ project-root/
    uvicorn main:app --reload
    ```
 
-> ⚠️ Replace `YOUR_GEMINI_API_KEY` in `main.py` with your actual [Google AI Studio API Key](https://makersuite.google.com/).
+>  Replace `YOUR_GEMINI_API_KEY` in `main.py` with your actual [Google AI Studio API Key](https://makersuite.google.com/).
 
 ---
 
-## 🧠 Gemini Chat Features
+##  Gemini Chat Features
 
-* ✨ Ask questions and get real-time answers
-* 🔀 Start a new chat session
-* 🔧 Backend built on FastAPI
-* 🎨 Frontend built with HTML + CSS + JS
-* 🔐 CORS-enabled for local development
+*  Ask questions and get real-time answers
+*  Start a new chat session
+*  Backend built on FastAPI
+*  Frontend built with HTML + CSS + JS
+*  CORS-enabled for local development
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description               |
 | ------ | -------- | ------------------------- |
@@ -88,7 +88,7 @@ project-root/
 
 ---
 
-## 🧪 Testing with Postman
+##  Testing with Postman
 
 1. URL: `http://localhost:8000/chat`
 2. Method: `POST`
@@ -109,7 +109,7 @@ project-root/
 
 ---
 
-## 🖥️ Frontend (Static HTML)
+## 🖥 Frontend (Static HTML)
 
 * Send messages via a form.
 * Render user and bot messages in chat bubbles.
@@ -117,25 +117,22 @@ project-root/
 
 ---
 
-## 📸 Screenshots (Optional)
-
-> Add screenshots here if you want.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests and feedback are welcome! Please open an issue first to discuss major changes.
 
 ---
 
-## 📄 License
+##  License
 
 MIT License © 2025
 
 ---
 
-## 🌐 Links
+##  Links
 
 * Google Gemini: [https://ai.google.dev](https://ai.google.dev)
 * FastAPI Docs: [https://fastapi.tiangolo.com](https://fastapi.tiangolo.com)
