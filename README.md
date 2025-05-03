@@ -1,4 +1,4 @@
-#  Gemini Flash 2.0 Chatbot Web App
+#  Antappan Chatbot Web App
 
 An interactive chatbot web application using Google's **Gemini 2.0 Flash** model integrated with a FastAPI backend and a modern HTML/CSS/JS frontend.
 
