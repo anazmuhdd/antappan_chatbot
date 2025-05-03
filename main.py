@@ -23,7 +23,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 # Gemini setup
-genai.configure(api_key="AIzaSyA2ntbrpySkb_czSPU5NrBenIMn7oztd1c")
+genai.configure(api_key="YOUR_API")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Global chat session (in-memory)
